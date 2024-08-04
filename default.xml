@@ -9,6 +9,6 @@
   <!-- Upstream Projects -->
   <project name="akazakov/euler_cpp" path="euler"/>
   
-  <default revision="main" remote="github-ssh">
+  <default revision="main" remote="github-ssh" />
 
 </manifest>
