@@ -1,13 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
   <!-- Remote repositories definition -->
-  <remote name="buxis" fetch="git@github.com:akazakov/buxis.git"/>
-  <remote name="euler" fetch="git@github.com:akazakov/eurler_cpp.git"/>
+  <remote name="github-ssh" fetch="git@github.com"/>
 
   <!-- main project -->
-  <project name="sms" revision="main" remote="buxis" path="."/>
+  <project name="akazakov/buxis" revision="main" remote="github-ssh" path="."/>
 
   <!-- Upstream Projects -->
-  <project name="euler" revision="main" remote="euler" path="sources/euler"/>
+  <project name="akazakov/euler_cpp" revision="main" remote="github-ssh" path="euler"/>
 
 </manifest>
