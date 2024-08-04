@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
   <!-- Remote repositories definition -->
-  <remote name="github-ssh" fetch="git@github.com"/>
+  <remote name="github-ssh" fetch="ssh://git@github.com"/>
 
   <!-- main project -->
-  <project name="akazakov/buxis" revision="main" remote="github-ssh" path="."/>
+  <project name="akazakov/buxis.git" path="."/>
 
   <!-- Upstream Projects -->
-  <project name="akazakov/euler_cpp" revision="main" remote="github-ssh" path="euler"/>
+  <project name="akazakov/euler_cpp" path="euler"/>
+  
+  <default revision="main" remote="github-ssh">
 
 </manifest>
