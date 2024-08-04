@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <!-- 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
   <project name="akazakov/buxis.git" path="." />
@@ -8,6 +7,5 @@
   <project name="akazakov/euler_cpp.git" path="euler" />
   
   <default revision="main" remote="github-ssh" />
-Upstream Projects -->
 
 </manifest>
