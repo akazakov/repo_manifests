@@ -7,8 +7,10 @@
   <project name="akazakov/buxis.git" path="."/>
 
   <!-- Upstream Projects -->
-  <project name="akazakov/euler_cpp" path="euler"/>
+  <project name="akazakov/euler_cpp.git" path="euler" />
   
+  <!-- 
   <default revision="main" remote="github-ssh" />
+Upstream Projects -->
 
 </manifest>
